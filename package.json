@@ -18,11 +18,9 @@
   "homepage": "https://github.com/fireWinters/DT-Web3-Interface#readme",
   "devDependencies": {
     "mini-css-extract-plugin": "^2.9.0",
+    "postcss-loader": "^8.1.1",
+    "swc-loader": "^0.2.6",
     "typescript": "^5.5.3",
     "webpack": "^5.92.1"
-  },
-  "dependencies": {
-    "postcss-loader": "^8.1.1",
-    "swc-loader": "^0.2.6"
   }
 }

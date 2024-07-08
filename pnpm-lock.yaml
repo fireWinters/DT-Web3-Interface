@@ -7,17 +7,16 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
+      mini-css-extract-plugin:
+        specifier: ^2.9.0
+        version: 2.9.0(webpack@5.92.1(@swc/core@1.6.13))
       postcss-loader:
         specifier: ^8.1.1
         version: 8.1.1(postcss@8.4.39)(typescript@5.5.3)(webpack@5.92.1(@swc/core@1.6.13))
       swc-loader:
         specifier: ^0.2.6
         version: 0.2.6(@swc/core@1.6.13)(webpack@5.92.1(@swc/core@1.6.13))
-    devDependencies:
-      mini-css-extract-plugin:
-        specifier: ^2.9.0
-        version: 2.9.0(webpack@5.92.1(@swc/core@1.6.13))
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
