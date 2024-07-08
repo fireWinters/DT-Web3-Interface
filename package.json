@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fireWinters/DT-Web3-Interface#readme",
   "devDependencies": {
+    "typescript": "^5.5.3",
     "webpack": "^5.92.1"
   }
 }
