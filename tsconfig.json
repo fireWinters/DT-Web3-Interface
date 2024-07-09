@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    //以下四个属性，严格模式，禁用any,禁止null，不能指向不明确的this
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
