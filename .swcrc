@@ -21,7 +21,7 @@
     },
     "target": "esnext",
     "loose": true,
-    "externalHelpers": true,
+    "externalHelpers": true, //支持swc中没有支持的部分功能，swc/helpers
     "keepClassNames": false
   }
 }

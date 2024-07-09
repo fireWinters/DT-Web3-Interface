@@ -22,6 +22,7 @@
   "homepage": "https://github.com/fireWinters/DT-Web3-Interface#readme",
   "devDependencies": {
     "@swc/core": "^1.6.13",
+    "@swc/helpers": "^0.5.11",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-config-prettier": "^9.1.0",
