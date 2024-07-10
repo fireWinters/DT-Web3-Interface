@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client:dev": "webpack --mode development",
-    "client:build": "webpack --mode production",
+    "client:dev": "scripty",
+    "client:prod": "scripty",
+    "client:server": "scripty",
     "lint:fix": "tsc --noEmit & eslint ./src --ext .ts,.tsx,.js --fix",
     "lint:init": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -38,10 +39,12 @@
     "node-notifier": "^10.0.1",
     "postcss-loader": "^8.1.1",
     "prettier": "^3.3.2",
+    "scripty": "^2.1.1",
     "swc-loader": "^0.2.6",
     "typescript": "^5.5.3",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^6.0.1",
     "yargs-parser": "^21.1.1"
   }
